@@ -1,0 +1,46 @@
+.header-link {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+}
+
+.header-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.sign-up-button {
+    border-radius: 6px;
+    width: 160px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ED4C5C;
+}
+
+.section-header {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.section-text {
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.learn-more-link {
+    font-size: 14px;
+    line-height: 140%;
+    color: #ED4C5C;
+}
+
