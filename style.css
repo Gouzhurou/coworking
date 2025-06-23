@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+}
+
 .header-link {
     font-weight: bold;
     font-size: 14px;
@@ -8,12 +17,14 @@
     font-weight: bold;
     font-size: 72px;
     line-height: 86px;
+    margin-bottom: 39px;
 }
 
 .header-text {
     font-weight: 600;
     font-size: 24px;
     line-height: 150%;
+    margin-bottom: 39px;
 }
 
 .sign-up-button {
@@ -26,6 +37,10 @@
     color: #ED4C5C;
 }
 
+.header3 {
+    margin-bottom: 24px;
+}
+
 .section-header {
     font-weight: 600;
     font-size: 36px;
@@ -36,11 +51,37 @@
 .section-text {
     font-size: 14px;
     line-height: 140%;
+    margin-bottom: 14px;
 }
 
 .learn-more-link {
     font-size: 14px;
     line-height: 140%;
     color: #ED4C5C;
+}
+
+.features {
+    margin-bottom: 63px;
+}
+
+.support {
+    margin-top: 33px;
+    margin-bottom: 20px;
+}
+
+.text7 {
+    margin-bottom: 5px;
+}
+
+.stay-focused {
+    margin-bottom: 45px;
+}
+
+.contacts {
+    margin-bottom: 53px;
+}
+
+footer {
+    height: 110px;
 }
 
