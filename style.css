@@ -3,31 +3,35 @@
     padding: 0;
 }
 
-header {
+a {
+    text-decoration: none;
+}
+
+.header {
     height: 100px;
 }
 
-.header-link {
+.header__link {
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
 }
 
-.header {
+.title {
     font-weight: bold;
     font-size: 72px;
     line-height: 86px;
     margin-bottom: 39px;
 }
 
-.header-text {
+.top__text {
     font-weight: 600;
     font-size: 24px;
     line-height: 150%;
     margin-bottom: 39px;
 }
 
-.sign-up-button {
+.top__button {
     border-radius: 6px;
     width: 160px;
     height: 50px;
@@ -37,51 +41,51 @@ header {
     color: #ED4C5C;
 }
 
-.header3 {
-    margin-bottom: 24px;
-}
-
-.section-header {
+.heading {
     font-weight: 600;
     font-size: 36px;
     line-height: 43px;
     color: #000000;
 }
 
-.section-text {
+.lorem__heading {
+    margin-bottom: 24px;
+}
+
+.lorem__text {
     font-size: 14px;
     line-height: 140%;
     margin-bottom: 14px;
 }
 
-.learn-more-link {
+.lorem__link {
     font-size: 14px;
     line-height: 140%;
     color: #ED4C5C;
 }
 
-.features {
+.features__heading {
     margin-bottom: 63px;
 }
 
-.support {
+.features__subheading {
     margin-top: 33px;
     margin-bottom: 20px;
 }
 
-.text7 {
+.features__text {
     margin-bottom: 5px;
 }
 
-.stay-focused {
+.stay__heading {
     margin-bottom: 45px;
 }
 
-.contacts {
+.contacts__heading {
     margin-bottom: 53px;
 }
 
-footer {
+.footer {
     height: 110px;
 }
 
