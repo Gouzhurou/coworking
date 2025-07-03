@@ -12,65 +12,96 @@
 </head>
 
 <body>
-    <div class="top">
+    <div class="top center">
         <header class="header">
             <img src="./img/logo_landing.svg" alt="Логотип сайта">
-            <a class="header__link" href="">Overview</a>
-            <a class="header__link" href="">Features</a>
-            <a class="header__link" href="">Contact</a>
+            <nav class="header__links">
+                <a class="header__link" href="">Overview</a>
+                <a class="header__link" href="#features">Features</a>
+                <a class="header__link" href="#contacts">Contacts</a>
+            </nav>
         </header>
 
-        <section class="top_content">
+        <section class="top__content">
             <h1 class="title">Coworking</h1>
             <p class="top__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius voluptatibus aperiam maiores id, incidunt repellendus mollitia </p>
             <button class="top__button">Sign Up</button>
         </section>
     </div>
 
-    <section class="lorem">
-        <h3 class="heading lorem__heading">Lorem, ipsum dolor.</h3>
-        <p class="lorem__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque suscipit necessitatibus quisquam illum minima labore. Aliquam alias ullam exercitationem nulla.</p>
-        <a class="lorem__link" href="">Learn More</a>
-        <img src="./img/photo1landign.jpg" alt="">
+    <section class="content-box center">
+        <div class="content-box__info">
+            <h3 class="heading lorem__heading">Lorem ipsum dolor sit amet, consectetur.</h3>
+            <p class="context-box__text lorem__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut autem distinctio doloribus dolorum perferendis quis reiciendis tempora tenetur veritatis vitae. Aspernatur at dicta, dolorem ea earum eligendi fuga labore voluptates!</p>
+            <a class="content-box__link" href="">Learn More</a>
+        </div>
+        <img class="content-box__img" src="./img/photo1landign.jpg" alt="">
     </section>
 
-    <section class="features">
+    <section class="features center" id="features">
         <h2 class="heading features__heading">Features</h2>
-        <img src="./img/features1.jpg" alt="">
-        <h4 class="features__subheading">Supports All Currencies and Cards</h4>
-        <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores accusamus </p>
-        <a class="features__link" href="#">Read More</a>
 
-        <img src="./img/features2.jpeg" alt="">
-        <h4 class="features__subheading">Manage your expenses </h4>
-        <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores accusamus </p>
-        <a class="features__link" href="#">Read More</a>
+        <div class="features__content">
+            <div class="feature">
+                <img src="./img/features1.jpg" alt="">
+                <div class="feature__info">
+                    <h4 class="feature__heading">Supports All Currencies and Cards</h4>
+                    <p class="feature__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores accusamus </p>
+                    <a class="feature__link" href="#">Read More</a>
+                </div>
+            </div>
 
-        <img src="./img/features3.jpeg" alt="">
-        <h4 class="features__subheading">Perfect Software</h4>
-        <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores accusamus </p>
-        <a class="features__link" href="#">Read More</a>
+            <div class="feature">
+                <img src="./img/features2.jpeg" alt="">
+                <div class="feature__info">
+                    <h4 class="feature__heading">Manage your expenses </h4>
+                    <p class="feature__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores accusamus </p>
+                    <a class="feature__link" href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="feature">
+                <img src="./img/features3.jpeg" alt="">
+                <div class="feature__info">
+                    <h4 class="feature__heading">Perfect Software</h4>
+                    <p class="feature__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores accusamus </p>
+                    <a class="feature__link" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="stay">
-        <h2 class="heading stay__heading">Stay focused on saving money</h2>
-        <p class="stay__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci cum aut rem ab aliquid itaque dignissimos corporis quas, molestias excepturi!</p>
-        <img class="stay__img" src="./img/stay.jpg" alt="">
+    <section class="content-box center pink-background">
+        <div class="content-box__info">
+            <h2 class="heading stay__heading white-text">Stay focused on saving money</h2>
+            <p class="context-box__text white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi asperiores beatae, corporis cumque dolore doloremque eum expedita facere, illo impedit inventore ipsa minima molestias nihil, odit qui quidem quis recusandae rerum sit soluta vitae. A nemo optio tempora voluptate?</p>
+        </div>
+        <img class="content-box__img" src="./img/stay.jpg" alt="">
     </section>
 
-    <section class="contacts">
-        <h2 class="heading contacts__heading">Contacts</h2>
-        <p class="contacts__text">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
-        <input class="contacts__input" placeholder="First Name" type="text">
-        <input class="contacts__input" placeholder="Last Name" type="text">
-        <input class="contacts__input phone_number" placeholder="Phone Number" type="number">
-        <select name="" id="">
-            <option class="" value="Select Coworking">Select Coworking</option>
-        </select>
-        <button class="contacts__button">Submit Now</button>
+    <section class="content-box center contacts" id="contacts">
+        <div class="contacts__info content-box__info">
+            <h2 class="heading contacts__heading">Contacts</h2>
+            <p class="context-box__text">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
+        </div>
+
+        <form action="#" class="contacts__form">
+            <div class="contacts__input-box">
+                <input class="contacts__input contacts__input-small" placeholder="First Name" type="text">
+                <input class="contacts__input contacts__input-small" placeholder="Last Name" type="text">
+            </div>
+            <input class="contacts__input phone_number" placeholder="Phone Number" type="number">
+            <select class="contacts__input">
+                <option class="" value="Select Coworking">Select Coworking</option>
+                <option class="" value="Select Coworking">Coworking 1</option>
+                <option class="" value="Select Coworking">Coworking 2</option>
+                <option class="" value="Select Coworking">Coworking 3</option>
+            </select>
+            <button class="contacts__button">Submit Now</button>
+        </form>
     </section>
 
-    <footer class="footer">
+    <footer class="footer center">
         <p>Copyright 2025 CoWo</p>
     </footer>
 </body>
