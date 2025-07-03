@@ -3,8 +3,20 @@
     padding: 0;
 }
 
+body {
+    font-family: "Lato", sans-serif;
+}
+
 a {
     text-decoration: none;
+}
+
+.top {
+    height: 782px;
+    background-image: url(./img/top_background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .header {
@@ -12,49 +24,73 @@ a {
 }
 
 .header__link {
-    font-weight: bold;
     font-size: 14px;
     line-height: 17px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .title {
-    font-weight: bold;
     font-size: 72px;
     line-height: 86px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
     margin-bottom: 39px;
 }
 
 .top__text {
-    font-weight: 600;
+    width: 540px;
     font-size: 24px;
     line-height: 150%;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: center;
     margin-bottom: 39px;
 }
 
 .top__button {
+    border: none;
     border-radius: 6px;
     width: 160px;
     height: 50px;
+    background: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     color: #ED4C5C;
+    letter-spacing: 0;
+    /*text-align: left;*/
+    text-transform: uppercase;
 }
 
 .heading {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
     line-height: 43px;
     color: #000000;
+    letter-spacing: 0;
+    text-align: center;
 }
 
 .lorem__heading {
+    text-align: left;
     margin-bottom: 24px;
 }
 
 .lorem__text {
     font-size: 14px;
     line-height: 140%;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: justify;
     margin-bottom: 14px;
 }
 
@@ -62,27 +98,118 @@ a {
     font-size: 14px;
     line-height: 140%;
     color: #ED4C5C;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: justify;
 }
 
 .features__heading {
-    margin-bottom: 63px;
+    margin-bottom: 64px;
 }
 
 .features__subheading {
-    margin-top: 33px;
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 32px;
     margin-bottom: 20px;
 }
 
 .features__text {
+    color: rgb(16, 16, 16);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0;
+    text-align: center;
     margin-bottom: 5px;
 }
 
+.features__link {
+    color: rgb(237, 76, 92);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.stay {
+    height: 500px;
+    background: rgb(237, 76, 92);
+}
+
 .stay__heading {
+    color: rgb(255, 255, 255);
+    text-align: left;
     margin-bottom: 45px;
 }
 
+.stay__text {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0;
+    text-align: justify;
+}
+
+.stay__img {
+    border-radius: 15px;
+}
+
 .contacts__heading {
-    margin-bottom: 53px;
+    text-align: left;
+    margin-bottom: 52px;
+}
+
+.contacts__text {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0;
+    text-align: justify;
+}
+
+.contacts__input {
+    width: 255px;
+    height: 60px;
+    padding-right: 32px;
+    padding-left: 32px;
+    box-sizing: border-box;
+}
+
+.contacts__input::placeholder {
+    color: rgba(19, 39, 67, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.contacts__button {
+    box-sizing: border-box;
+    border: 2px solid rgb(237, 76, 92);
+    border-radius: 6px;
+    background: rgb(237, 76, 92);
+    width: 160px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0;
+    /*text-align: left;*/
+    text-transform: uppercase;
+}
+
+.phone_number {
+    width: 540px;
 }
 
 .footer {

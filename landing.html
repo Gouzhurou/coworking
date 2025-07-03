@@ -5,22 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header class="header">
-        <img src="./img/logo_landing.svg" alt="Логотип сайта">
-        <a class="header__link" href="">OVERVIEW</a>
-        <a class="header__link" href="">FEATURES</a>
-        <a class="header__link" href="">CONTACT</a>
-    </header>
+    <div class="top">
+        <header class="header">
+            <img src="./img/logo_landing.svg" alt="Логотип сайта">
+            <a class="header__link" href="">Overview</a>
+            <a class="header__link" href="">Features</a>
+            <a class="header__link" href="">Contact</a>
+        </header>
 
-    <section class="top">
-        <h1 class="title">Coworking</h1>
-        <p class="top__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, nostrum!</p>
-        <button class="top__button">Sign Up</button>
-    </section>
+        <section class="top_content">
+            <h1 class="title">Coworking</h1>
+            <p class="top__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius voluptatibus aperiam maiores id, incidunt repellendus mollitia </p>
+            <button class="top__button">Sign Up</button>
+        </section>
+    </div>
 
     <section class="lorem">
         <h3 class="heading lorem__heading">Lorem, ipsum dolor.</h3>
@@ -33,20 +38,34 @@
         <h2 class="heading features__heading">Features</h2>
         <img src="./img/features1.jpg" alt="">
         <h4 class="features__subheading">Supports All Currencies and Cards</h4>
-        <p class="features__text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores accusamus </p>
+        <a class="features__link" href="#">Read More</a>
+
+        <img src="./img/features2.jpeg" alt="">
+        <h4 class="features__subheading">Manage your expenses </h4>
+        <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores accusamus </p>
+        <a class="features__link" href="#">Read More</a>
+
+        <img src="./img/features3.jpeg" alt="">
+        <h4 class="features__subheading">Perfect Software</h4>
+        <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo maiores accusamus </p>
+        <a class="features__link" href="#">Read More</a>
     </section>
 
     <section class="stay">
         <h2 class="heading stay__heading">Stay focused on saving money</h2>
         <p class="stay__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci cum aut rem ab aliquid itaque dignissimos corporis quas, molestias excepturi!</p>
-        <img src="./img/stay.jpg" alt="">
+        <img class="stay__img" src="./img/stay.jpg" alt="">
     </section>
 
     <section class="contacts">
         <h2 class="heading contacts__heading">Contacts</h2>
-        <input type="number">
+        <p class="contacts__text">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
+        <input class="contacts__input" placeholder="First Name" type="text">
+        <input class="contacts__input" placeholder="Last Name" type="text">
+        <input class="contacts__input phone_number" placeholder="Phone Number" type="number">
         <select name="" id="">
-            <option value="Select Coworking">Select Coworking</option>
+            <option class="" value="Select Coworking">Select Coworking</option>
         </select>
         <button class="contacts__button">Submit Now</button>
     </section>
